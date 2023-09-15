@@ -1,0 +1,75 @@
+[
+    {
+      "id": "c1clanguage",
+      "cover_img": "https://i.ibb.co/BssJjMG/Rectangle-2-2.png",
+      "course_name": "Introduction to C Programming",
+      "credit_hour": 3,
+      "price": 99.99,
+      "short_details": "Learn the basics of programming with this introductory course where c language is used as a programming language."
+    },
+    {
+      "id": "c2algo",
+      "cover_img": "https://i.ibb.co/QpnS2dT/Rectangle-2-3.png",
+      "course_name": "Introduction to Algorithms",
+      "credit_hour": 4,
+      "price": 129.99,
+      "short_details": "Get started with Algorithm and build your first logic and increase the depth knowledge of system."
+    },
+    {
+      "id": "c3c++dsa",
+      "cover_img": "https://i.ibb.co/zVz78Jz/Rectangle-2-4.png",
+      "course_name": "Introduction to C++ for DSA",
+      "credit_hour": 5,
+      "price": 149.99,
+      "short_details": "Explore data structure and visualization techniques in this course using c++ programming language."
+    },
+    {
+      "id": "c4dsa",
+      "cover_img": "https://i.ibb.co/GMHqh4p/Rectangle-3.png",
+      "course_name": "Basic Data Structures",
+      "credit_hour": 4,
+      "price": 139.99,
+      "short_details": "Understanding the data structure and gain introductory knowledge for better development."
+    },
+    {
+      "id": "c5pyoop",
+      "cover_img": "https://i.ibb.co/nPdXJRF/2-0.png",
+      "course_name": "Introduction to OOP Python",
+      "credit_hour": 4,
+      "price": 159.99,
+      "short_details": "Discover the fundamentals of object oriented programming using python programming language."
+    },
+    {
+      "id": "c6sfte",
+      "cover_img": "https://i.ibb.co/jvwKbwB/Rectangle-2-5.png",
+      "course_name": "Software Engineering",
+      "credit_hour": 3,
+      "price": 109.99,
+      "short_details": "Learn Software Engineering fundamentals and strategies to make a good career as software engineer."
+    },
+    {
+      "id": "c7aws",
+      "cover_img": "https://i.ibb.co/n8RKP7c/Rectangle-3-1.png",
+      "course_name": "AWS, Cloud Computing",
+      "credit_hour": 3,
+      "price": 119.99,
+      "short_details": "Master the basics of aws and learn about cloud computing as a complete beginner."
+    },
+    {
+      "id": "c8mysqldb",
+      "cover_img": "https://i.ibb.co/26N1KXc/Rectangle-2-1.png",
+      "course_name": "Database (MySQL)",
+      "credit_hour": 4,
+      "price": 129.99,
+      "short_details": "Gain essential knowledge and learn database management system with mysql in this course."
+    },
+    {
+      "id": "c9pbs",
+      "cover_img": "https://i.ibb.co/25f0x4F/Rectangle-2-6.png",
+      "course_name": "Problem-Solving Part",
+      "credit_hour": 2,
+      "price": 89.99,
+      "short_details": "Unlock your creativity and improve your problem solving skill and build up logic."
+    }
+  ]
+  
