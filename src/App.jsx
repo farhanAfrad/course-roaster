@@ -6,22 +6,17 @@ import { useState } from 'react'
 
 function App() {
   const [courseIncart,setCourseCart] = useState([]);
-
+  
   const handleSelectToCart = (course) =>{
-    // console.log(courseIncart);
-    let newC = [];
-    for(let crs of courseIncart){
-      if(crs.id === course.id){
-        continue;
-      }
-      else{
-        newC = [...courseIncart,course];
-      }
-    }
-    // const newCart = [...courseIncart,course];
-    // setCourseCart(newCart);
-     setCourseCart(newC);
-    
+   const alreadyExist = courseIncart.find(crs => crs.id === course.id);
+   console.log(alreadyExist);
+   if(alreadyExist){
+    return alert('you already added this course')
+   }
+   else{
+    const newCart = [...courseIncart,course];
+    setCourseCart(newCart);
+   }   
   }
   
   
