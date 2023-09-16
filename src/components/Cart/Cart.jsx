@@ -2,11 +2,9 @@
 import PropTypes from 'prop-types'
 // import List from '../List/List';
 
-const Cart = ({courseIncart}) => {
-    //  console.log(courseIncart);
-    // const {course_name} = courseIncart;
-    
-    // console.log(course_name);
+const Cart = ({courseIncart,totalCredit}) => {
+    // const {credit_hour} = courseIncart;
+    // courseIncart.forEach(course => totalCredit += course.credit_hour);
     return (
         <div className="w-1/4 bg-white p-6 rounded-xl h-min">
             <h3 className="mb-4 text-lg font-bold text-blue-500">Credit Hour Remaining 7 hr</h3>
@@ -20,13 +18,14 @@ const Cart = ({courseIncart}) => {
                 </ol>
             </div>
             
-            <p className="py-4 border-b-2 text-gray-600 font-semibold">Total Credit Hour : 13</p>
+            <p className="py-4 border-b-2 text-gray-600 font-semibold">Total Credit Hour : {totalCredit}</p>
             <p className="py-4 text-gray-600 font-semibold">Total Price : 48000 USD</p>
         </div>
     );
 };
 
 Cart.propTypes = {
-    courseIncart: PropTypes.array
+    courseIncart: PropTypes.array,
+    totalCredit: PropTypes.number
 }
 export default Cart;
