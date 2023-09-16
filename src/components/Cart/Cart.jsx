@@ -6,7 +6,7 @@ const Cart = ({courseIncart,totalCredit,remainingCredit}) => {
     // const {credit_hour} = courseIncart;
     // courseIncart.forEach(course => totalCredit += course.credit_hour);
     return (
-        <div className="w-1/4 bg-white p-6 rounded-xl h-min">
+        <div className="w-full lg:w-1/4 bg-white p-6 rounded-xl h-min">
             <h3 className="mb-4 text-lg font-bold text-blue-500">Credit Hour Remaining {remainingCredit} hr</h3>
             <div className="pt-4 pb-6 border-t-2 border-b-2">
                 <h2 className="text-xl font-bold">Course Name</h2>

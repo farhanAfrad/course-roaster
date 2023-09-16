@@ -47,7 +47,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main className='w-11/12 mx-auto md:flex gap-6'>
+      <main className='w-11/12 mx-auto flex flex-col lg:flex-row gap-6'>
         <Courses handleSelectToCart={handleSelectToCart}></Courses>
         <Cart courseIncart={courseIncart} totalCredit={totalCredit} remainingCredit={remainingCredit}></Cart>
         <ToastContainer 

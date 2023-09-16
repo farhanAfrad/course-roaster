@@ -14,9 +14,9 @@ const Courses = ({handleSelectToCart}) => {
         .then(res => res.json())
         .then(data => setCourses(data));
     },[]);
-    
+
     return (
-        <div className="w-3/4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="w-full lg:w-3/4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-5">
             {
                 courses.map(course => <Course 
                     handleSelectToCart={handleSelectToCart} 
