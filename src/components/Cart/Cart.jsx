@@ -1,10 +1,9 @@
 
 import PropTypes from 'prop-types'
-// import List from '../List/List';
+
 
 const Cart = ({courseIncart,totalCredit,remainingCredit}) => {
-    // const {credit_hour} = courseIncart;
-    // courseIncart.forEach(course => totalCredit += course.credit_hour);
+    
     return (
         <div className="w-full md:1/3 lg:w-1/4 bg-white p-6 rounded-xl h-min">
             <h3 className="mb-4 text-lg font-bold text-blue-500">Credit Hour Remaining {remainingCredit} hr</h3>
